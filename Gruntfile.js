@@ -1,15 +1,9 @@
 module.exports = function (grunt) {
-    // show elapsed time at the end
-    require('time-grunt')(grunt);
-    // load all grunt tasks
-    require('load-grunt-tasks')(grunt);
-
-    //REMOTE (build.phonegap.com) phonegap (for devices) builds
+   
     grunt.loadNpmTasks('grunt-contrib-compress');
     grunt.loadNpmTasks('grunt-phonegap-build');
-
-    // configurable paths
-    var yeomanConfig = {
+    
+     var yeomanConfig = {
         app: 'www',
         dist: 'dist'
     };
