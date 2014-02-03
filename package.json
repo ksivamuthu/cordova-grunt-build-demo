@@ -6,6 +6,10 @@
     "grunt": "~0.4.2",
     "grunt-testflight": "~0.1.1",
     "grunt-contrib-compress": "~0.6.0",
-    "grunt-phonegap-build": "0.0.8"
+    "grunt-phonegap-build": "0.0.8",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0"
   }
 }

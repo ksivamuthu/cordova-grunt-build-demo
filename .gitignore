@@ -1,3 +1,6 @@
 node_modules/
 releases/
 app.zip
+platforms/windows8/bin/
+platforms/windows8/bld/
+www/
